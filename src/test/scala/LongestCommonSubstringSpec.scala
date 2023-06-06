@@ -14,7 +14,8 @@ class LongestCommonSubstringSpec
   forAll(
     Table(
       ("algo", "name"),
-      (NoDeps, "No dependency implementation")
+      (NoDeps, "No dependency implementation"),
+      (CscMatrix, "Sparse Matrix based implementation")
     )
   ) { (algo, name) =>
     behavior of name

@@ -8,7 +8,7 @@ trait LongestCommonSubstring {
 }
 
 object LongestCommonSubstring {
-  private val default: LongestCommonSubstring = NoDeps
+  private val default: LongestCommonSubstring = CscMatrix
 
   def of(
       s1: String,
